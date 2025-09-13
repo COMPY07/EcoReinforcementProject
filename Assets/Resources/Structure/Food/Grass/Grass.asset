@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245c87ffa3114f5d9e2179484d6fa493, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  structureName: Grass
+  prefab: {fileID: 5287990043797194705, guid: 580c28284289b4f1d89b28caf77da2ba, type: 3}
+  variations: []
+  canPlaceOnTiles: 00000000
+  neighborRules:
+  - ruleName: Grass
+    requiredTileTypes: 00000000
+    searchRadius: 2
+    ruleType: 0
+    effectStrength: 0.632
+  spawnChance: 0.451
+  maxPerTile: 1
+  scaleMin: 0.8
+  scaleMax: 1.2
+  randomRotation: 1
+  positionOffset: {x: 0, y: 0, z: 0}
+  minSpacing: 1

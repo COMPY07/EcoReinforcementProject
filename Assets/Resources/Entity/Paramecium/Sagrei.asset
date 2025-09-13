@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530d56d7c6ef48b6bb77186e3751658a, type: 3}
+  m_Name: Sagrei
+  m_EditorClassIdentifier: 
+  speciesName: Sagrei
+  maxHealth: 120
+  maxEnergy: 120
+  moveSpeed: 15
+  turnSpeed: 180
+  size: 1.2
+  energyDecayRate: 1
+  reproductionThreshold: 65
+  maxAge: 100
+  visionRange: 10
+  visionAngle: 120
+  canEat: 1
+  canAttack: 0
+  canReproduce: 1
+  canFlee: 1
+  foodTags:
+  - Bug
+  predatorTags: []
+  preyTags: []
+  survivalReward: 0.1
+  feedingReward: 5
+  reproductionReward: 15
+  deathPenalty: 8
+  bodyMaterial: {fileID: 0}
+  bodyScale: {x: 1, y: 1, z: 1}
+  bodyMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  customPrefab: {fileID: 2651024723684575770, guid: 52a9aa264bbe64f44ace2ef32c360b13, type: 3}

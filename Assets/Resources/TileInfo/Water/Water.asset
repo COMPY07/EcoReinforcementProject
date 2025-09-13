@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b4f404ebf04669b90d7a97a01636b9, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  tileName: Water
+  tileType: 1
+  prefab: {fileID: 698243286967956540, guid: 0b9a4822069564a8fa7a4cdef9aa53e4, type: 3}
+  biome: 2
+  gizmoColor: {r: 0.043137226, g: 0.79316884, b: 0.98039216, a: 1}
+  compatibleUp:
+  - Water
+  - Sand
+  - DeepWater
+  compatibleDown:
+  - Water
+  - Sand
+  - DeepWater
+  compatibleLeft:
+  - Water
+  - Sand
+  - DeepWater
+  compatibleRight:
+  - Water
+  - Sand
+  - DeepWater
+  allowAllByDefault: 1
+  baseWeight: 1
+  biomeWeight: 1
+  variations: []
+  allowRotation: 1
+  allowMirroring: 0
+  heightData:
+    baseHeight: 0.7
+    heightVariation: 0.7
+    canHaveStructures: 0
+    allowedStructures: 
